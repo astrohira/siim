@@ -1,5 +1,3 @@
-/* style.css */
-
 /* Variáveis de Cores */
 :root {
     --cor-principal: #FF4500; /* Laranja Vívido (Para Força) */
@@ -121,7 +119,7 @@ h1, h2 {
 }
 
 .btn-submit:hover {
-    background-color: #e03c00; /* Um pouco mais escuro */
+    background-color: #e03c00;
 }
 
 /* --- Estilo de Modalidades --- */
@@ -193,9 +191,6 @@ h1, h2 {
     background-color: var(--cor-botoes-perigo); /* Vermelho */
 }
 
-/* ... Seu CSS original ... */
-
-/* --- Estilo do Rodapé --- */
 footer {
     background: var(--cor-secundaria);
     color: white;
@@ -210,5 +205,3 @@ footer {
     margin: 0 auto;
     padding: 0 20px;
 }
-
-/* ... Resto do CSS do rodapé ... */
