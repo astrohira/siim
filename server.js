@@ -25,7 +25,7 @@ let nextId = listaDeAlunos.length + 1;
 
 
 app.use(bodyParser.urlencoded({ extended: true })); 
-app.use(express.static(path.join(__dirname, ''))); 
+app.use(express.static('./'));
 
 // =======================================================
 // ROTAS DO BACKEND
