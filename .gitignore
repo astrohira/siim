@@ -1,2 +1,23 @@
-# dependencies
+# Dependências do Node (Geralmente a maior pasta)
 /node_modules
+
+# Arquivos de log e cache
+*.log
+npm-debug.log*
+.DS_Store # Arquivos do macOS
+
+# Arquivos de Configuração Sensíveis (se existirem)
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Pastas de build/deploy
+/dist
+/build
+/out
+
+# Arquivos temporários e de IDEs
+*~
+*.swp
+.vscode # Configurações de workspace do VS Code

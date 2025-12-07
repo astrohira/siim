@@ -23,10 +23,8 @@ let listaDeAlunos = [
 let nextId = listaDeAlunos.length + 1;
 // =======================================================
 
-// Configurações do Express
-// 1. Permite que o Express leia dados de formulários HTML (chaves: usuario, senha, nome, etc.)
+
 app.use(bodyParser.urlencoded({ extended: true })); 
-// 2. Permite servir arquivos estáticos (HTML, CSS)
 app.use(express.static(path.join(__dirname, ''))); 
 
 // =======================================================
